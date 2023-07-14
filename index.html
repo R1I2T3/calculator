@@ -16,7 +16,7 @@
         <div class="row0">
             <input type="button" value="AC" class="button" onclick="display.value= ' ' ">
             <input type="button" value="DE" class="button" onclick="display.value=display.value.toString().slice(0,-1) ">
-            <input type="button" value="=" class="button" onclick="display.value= eval(display.value) ">
+            <input type="button" value="÷" class="button" onclick="display.value+= '/' ">
         </div>
         <div class="row1">
         <input type="button" value="1" class="button" onclick="display.value+= '1' " >
@@ -39,7 +39,7 @@
     <div class="row4">
         <input type="button" value="0" class="button" onclick="display.value+= '0' ">
         <input type="button" value="." class="button" onclick="display.value+= '.' ">
-        <input type="button" value="÷" class="button" onclick="display.value+= '/' ">
+        <input type="button" value="=" class="button" onclick="display.value= eval(display.value) ">
     </main>
 </form>
     <!-- <script src="script.js"></script> -->
